@@ -1,0 +1,41 @@
+.app {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.item {
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: #46ccd6;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  background-color: #f44e42;
+  color: #fff;
+}
+
+form {
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid rebeccapurple;
+}
+
+button {
+  width: 150px;
+  padding: 5px;
+  background-color: rebeccapurple;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  margin: 0 10px;
+}
